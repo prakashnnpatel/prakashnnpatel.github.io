@@ -292,6 +292,25 @@
     transition: .5s;
 }
 
+.portfolio-btn .hover-title {
+    color: #fff;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.portfolio-btn .hover-text {
+    color: #eee;
+    margin-top: 5px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.portfolio-btn .portfolio-links {
+    display: flex;
+    gap: 10px;
+}
+
 .portfolio-item:hover .portfolio-btn {
     opacity: 1;
     padding-bottom: 30px !important;
