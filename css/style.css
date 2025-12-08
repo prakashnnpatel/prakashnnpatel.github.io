@@ -287,9 +287,9 @@
     align-items: flex-end;
     justify-content: flex-start;
     padding: 30px;
-    padding-bottom: 100px !important;
+    padding-bottom: 30px !important;
     opacity: 0;
-    transition: .5s;
+    transition: .5s;    
 }
 
 .portfolio-btn .hover-title {
@@ -447,3 +447,18 @@
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
 }
+
+/* ===== FIX OVERLAPPING PROJECT IMAGES ===== */
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+/* Ensure all images scale properly */
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
